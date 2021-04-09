@@ -22,7 +22,9 @@ for (var i = 0; i < insiemeIscritti.length; i++) {
 
 if (elementExist) {
     console.log("la tua email è nel sistema");
+    document.getElementById("iscritto").innerHTML = emailUtente + " hai confermato la tua iscrizione";
 }else {
     console.log("la tua email non esiste nel sistema");
+    alert("la tua email non è presente nel nostro sistema");
 }
 
